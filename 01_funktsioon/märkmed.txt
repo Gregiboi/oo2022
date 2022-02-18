@@ -42,6 +42,9 @@ git commit -m "game kaardi väljaprint"
 git config -- GITHUBi kasutajanimi
 git config -- GITHUBi e-mail
 
+UUESTI!
+git commit -m "game kaardi väljaprint"
+
 git push -- uploadib
 
 sisselogimine -- brauseri variant
