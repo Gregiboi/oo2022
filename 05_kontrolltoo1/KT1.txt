@@ -1,0 +1,91 @@
+Šifreerija/dešifreerija (cipher, decipher)
+
+* Luua klass, mis muudaks ette antava lause tähestiku ulatuses mingisuguse nihkega arusaamatuks (näiteks nihe 1, kus kõik “a”-d muudetakse “b”-deks, “d”-d muudetakse “e”-deks jne)
+* Samuti eksisteeriks ka dešifreerija, et võimalik nihke ette andmisel funktsiooni selle sama sisendi tagasi muutma arusaadavaks
+* Lugeda failist esimesel real oleva nihke numbri ning ülejäänud read selle nihke abil šifreerida ning salvestada šifreeritud kujul teise faili.
+
+(Huvi korral enda challengimiseks luua näiteks viie või suvalise kohaline nihke kood, mis muudab vastavalt koodi 1 kohal oleva numbri 1 tähe nihet, 2 kohal oleva numbri 2 tähe nihet ja nii rekursiivselt ja tagasi dešifreerida ka)
+
+Teisendamine
+
+* Luua klass, kus oleksid funktsioonid teisendada arv kümnendsüsteemist kahendsüsteemi, kaheksandsüsteemi, kuueteistkümnendsüsteemi
+* Samuti tagasi nendest
+* Omavahel ka nt kümnendsüsteemist kuueteistkümnendsüsteemi, kaheksandsüsteemist kümnendsüsteemi jne (kõik seosed)
+
+A-tähed tekstis
+
+* Loe programmi abil kokku, kui palju on tekstifailis a-tähti (nii suuri kui väikeseid)
+* Leia, kui palju oli a-tähti igas sõnas, sõnades keskmiselt, suhtarvuna tähtede üldarvu
+* Loe kokku, mitu sõna oli ühe, kahe, kolme jne a-tähega. Koosta tabel, kus ridadeks tähtede arv sõnas ning veergudeks a-tähtede arv. Lahtris näidatakse, mitu vastavat sõna oli tekstis.
+
+Geomeetriline keskmine
+
+* Koosta funktsioon, mis korrutab parameetritena antud kaks arvu ning võtab neist ruutjuure (Math.sqrt). Katseta.
+* Arve võib olla rohkem, need antakse ette kogumina. Arvud korrutatakse kokku ning võetakse niimitmes juur (astendaja pöördväärtus, Math.pow), kuimitu arvu oli.
+* Failis on viie aasta kohta koefitsiendid, kui palju igal aastal palk muutus. Samuti esimese aasta palk. Väljasta teise faili palk igal aastal neist ning võrdlusena kõrvale palk, kui sama alg- ja lõppsumma juures olnuks koefitsient arvutatud geomeetrilise keskmise abil.
+
+Harmooniline keskmine
+
+* Koosta funktsioon, mille sisendiks on kahe kilomeetripikkuse lõigu läbimise kiirused (km/h), väljundiks nende kahe kilomeetri läbimise keskmine kiirus.
+* Funktsioonile antakse ette kilomeetripikkuste lõikude läbimiste keskmised kiirused kogumina (km/h). Väljasta kogu selle tee läbimise keskmine kiirus.
+* Kilomeetriste lõikude läbimiste keskmised kiirused loetakse sisse veebiaadressilt, kogu teekonna läbimise keskmine kiirus salvestatakse faili.
+
+Karp ja vurrud
+
+* Koosta funktsioon, mis järjestab massiivi ning leiab sealt vähima ja suurima väärtuse. Katseta
+* Täienda funktsiooni nõnda, et etteantud massiivist väljastatakse massiivina järgmised väärtused: vähim; väärtus, millest 25% on väiksemad; väärtus, millest 50% on väiksemad; väärtus, millest 75% on väiksemad; suurim. Katseta.
+* Sisendarvud võetakse failist. Väljund kirjutatakse faili, kuhu joonistatakse ascii-graafikas karp ja vurrud joonis. 50%  andmete juures on ülalt alla püstkriips, 25%st 75%ni ulatub horisontaalne ristkülik ning miinimumist maksimumini horisontaalne joon. Võib eeldada, et sisendandmed on kuni 50-ni, st. mahuvad ühele tekstireale.
+
+Hulknurk
+
+* Koosta klass, milles on üks massiiv kolmnurga x-koordinaatide hoidmiseks ning teine massiiv y-koordinaatide hoidmiseks. Koosta klassist kaks eksemplari, määra algväärtused ning trüki andmed välja.
+* Lisa klassile käsklus kontrollimaks, kas kolmnurk on (ligikaudu) võrdkülgne
+* Ehita klass ümber hulknurga tarbeks. Kontrolli, kas punktid on keskkohast ligikaudu samal kaugusel ning küljed on ligikaudu sama pikad. Lubatud veaprotsendi saab ette anda.
+
+Algarvud
+
+* Teata, kas kasutaja sisestatud arv jagub kahe, kolme viie või seitsmega.
+* Teata, kas kasutaja sisestatud arv on algarv. 
+* Koosta massiiv esimese tuhande algarvuga. Leia selle sõela abil, millised on kümme suurimat algarvu, mis on väiksemad, kui tuhandenda algarvu ruut. 
+
+Kahendsüsteem
+
+* Teata, kas sisestatud neljakohaline arv koosneb vaid ühtedest ja nullidest.
+* Kui tingimus on tõene, väljasta selle kahendsüsteemi arvu väärtus kümnendsüsteemis.
+* Võrreldes eelmisega võib sisestatud kahendsüsteemi arv olla kuni kümnekohaline. Eraldi kuvatase välja, millisele väärtusele iga "üks" selles arvus vastab. 
+
+Kirjalik jagamine
+
+* Failist loetakse kaks arvu ning väljastatakse nende jagamise tulemus.
+* Lisaks eelmisele kontrollitakse, et ei jagataks nulliga. Jagatava alla kirjutatakse vastuse esimese numbri korrutis jagajaga. 
+* Joonistatakse kasutaja antud arvude kirjalik jagamine etappide kaupa, kus on näha, millised korrutamised ja jagamised töö käigus tekivad. 
+
+Kirjalik korrutamine
+
+* Väljastatakse failist loetud kahe arvu korrutis.
+* Etteantud arvude järgi kirjalik korrutamine on näha koos vahetulemustega. 
+* Lisaks näidatakse, millised arvud pärastisel kokkuliitmisel meelde jäetakse. 
+
+ Kirjalik liitmine
+
+* Failist saadud kaks arvu sisestatakse üksteise alla, summa omakorda nende alla.
+* Lisaks eelmisele on näha, millised arvud meelde jäetakse. 
+* Lisaks eelmisele võib liidetavaid arve olla suvaline arv.
+
+Kirjalik lahutamine
+
+* Väljastatakse kahe sisestatud arvu vahe absoluutväärtus.
+* Ekraanile joonistatakse suurem arv üles, väiksem alla ning vahe kõige alla, kümnendkohad kohakuti.
+* Võlgu võetud väärtused tähistatakse punktiga.
+
+Trips-traps-trull
+
+* Joonista sümbolite abil ekraanile trips-traps-trulli ruudustik
+* Kasutaja teatab rea ja veeru. Vastavasse kohta märgitakse kordamööda x ja 0
+* Kontrollitakse käikude õigsust, teatatakse mängu lõpust. 
+
+Avaldiste arvutamine
+
+* Tekstifaili ühel real on kahest ühekohalisest arvust ja tehtemärgist (+, -, *, /) koosnev avaldis. Teise faili väljastatakse avaldise tulemus.
+* Võrreldes eelnevaga võivad arvud olla mitmekohalised.
+* Avaldis võib olla pikem (nt. 4+3/4-1). Arvestatakse ka tehete järjekorda.
