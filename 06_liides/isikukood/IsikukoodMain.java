@@ -16,5 +16,14 @@ public class IsikukoodMain {
         System.out.println(ee2.isMale());
         System.out.println(ee2.getBirthYear());
         System.out.println(ee2.getBirthMonth());
+
+        IsikukoodLV lv = new IsikukoodLV("120388-51237");
+        System.out.println(lv.isMale());
+        System.out.println(lv.getBirthYear());
+        System.out.println(lv.getBirthMonth());
     }
 }
+
+// 14.15
+// Interfaces
+// JUnit
