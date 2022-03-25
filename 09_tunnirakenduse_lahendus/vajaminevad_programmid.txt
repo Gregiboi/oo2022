@@ -1,0 +1,9 @@
+
+IntelliJ Ultimate
+https://www.jetbrains.com/idea/download/#section=windows
+
+POSTMAN
+https://www.postman.com/
+
+PostgreSQL
+https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
