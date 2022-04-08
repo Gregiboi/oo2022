@@ -1,9 +1,6 @@
 package ee.mihkel.webshop;
 
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -14,26 +11,34 @@ public class ListController {
     List<String> strings = new ArrayList<>(Arrays.asList(
             "Scooby Doo", "Mickey Mouse", "Donald Duck"));
 
-    @GetMapping("strings")
+    @GetMapping("strings") // localhost:8080/strings   GET
     public List<String> getStrings() {
         return strings;
     }
 
-    @GetMapping("strings/{index}")
+    @GetMapping("strings/{index}") // localhost:8080/strings/1  GET
     public String getString(@PathVariable int index) {
         return strings.get(index);
     }
 
-    @DeleteMapping("strings/{index}")
+    @DeleteMapping("strings/{index}") // localhost:8080/strings/1 DELETE
     public String deleteString(@PathVariable int index) {
         return strings.remove(index);
     }
 
-    @DeleteMapping("strings")
+    @DeleteMapping("strings")  // localhost:8080/strings   DELETE
     public String deleteAllString() {
-        for (int i = 0; i < strings.size(); i++) {
-            strings.remove(i);
-        }
+        strings.clear();
         return "Kõik tooted kustutatud";
+    }
+
+    @PostMapping("strings") // localhost:8080/strings  POST
+    public void addString(@RequestBody String string) {
+        strings.add(string);
+    }
+
+    @PutMapping("strings/{index}") // localhost:8080/strings/1  PUT
+    public void editString(@PathVariable int index, @RequestBody String string) {
+        strings.set(index, string);
     }
 }
