@@ -1,4 +1,4 @@
-package ee.mihkel.webshop;
+package ee.mihkel.webshop.controller;
 
 import org.springframework.web.bind.annotation.*;
 
@@ -41,4 +41,4 @@ public class ListController {
     public void editString(@PathVariable int index, @RequestBody String string) {
         strings.set(index, string);
     }
-} // 14.30
+}
