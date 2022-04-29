@@ -19,8 +19,8 @@ function Maintain() {
         // const index = products.findIndex(element => element.id === productId)
         // products.splice(index,1);
 
-        // array.delete(element);???
-        // array.remove(element);???
+        // // array.delete(element);???
+        // // array.remove(element);???
 
         // setProducts(products.slice());
     }
