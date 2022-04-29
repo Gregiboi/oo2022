@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:3000")
 public class ProductController {
 
     @Autowired
@@ -43,4 +44,32 @@ public class ProductController {
     public void editProduct(@RequestBody Product product) {
         productRepository.save(product);
     }
+
+    @PostMapping("add-all-products") // localhost:8080/add-all-products  POST
+    public void addAllProducts(@RequestBody List<Product> products) {
+        productRepository.saveAll(products);
+    }
 }
+
+// !KOOD - EKSAMIL
+// Kood ideaalis on suveprojekti jaoks kirjutatud
+// Wordpressis tehtud koodijupp
+// PHP
+// Spring , React
+// HTML - CSS
+// JavaScript
+
+// Milleks sa seda koodijuppi kasutad suveprojektis
+// Muuda 1.   2.   3.
+
+// Seda koodijuppi ei pea kasutama suveprojektis
+
+// KODUNE TÖÖ: Spring + React
+// Võite teha ka kahekesi
+// Võib teha üksi
+
+// Controller + Model + Repository
+// Andmebaasi
+// React suhtleb Springiga
+
+
