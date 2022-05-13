@@ -16,7 +16,7 @@ Akordide arvutaja
 
 * Loo klass Kolmkõla mazoorkolmkõla nootide arvutamiseks. Konstruktoris antakse sisse täisarvuline põhitoon, eraldi käsuga väljastatakse põhitoon, suur terts (+4) ja kvint (+7). Ehk siis kui põhitooniks on 60 (C), siis väljastatakse arvud 60 64 67. Loo toimimise kontrolliks automaattest.
 * Loo klassile alamklassid CKolmkõla (põhitoon 60), FKolmkõla(65), GKolmkõla(67). Koosta klass, kuhu parameetrina antakse ette taktide akorditähed, kolmkõlaklasside abil väljastatakse mängitavad noodid. Lisa toimimise kontrolliks automaattest. 
-* Kolmkõla klassil on lisaks käsklus arvuliste MIDI-noodinumbrite tähtnimetusteks muutmiseks ning vastupidi. Alates 60st: C C# D Eb E F F# G G# A B H C Lisa  Kolmkõlale ka konstruktor, kus antakse ette akordi tähtnimetus ning selle järgi leitakse akordi põhitoon arvuna. Samuti on võimalik akordi noodid trükkida tähtnimedega. Koosta klass Lugu, kuhu iga takti jaoks saab lisada kolmkõla eksemplari. Veebilehele parameetrina antud kolmkõlatähtede põhjal väljastatakse Loo klassi eksemplari kaudu vastavalt kasutaja valikule kas mängitavad noodinumbrid või -nimed. Kontrolli automaattestidega.
+* Kolmkõla klassil on lisaks käsklus arvuliste MIDI-noodinumbrite tähtnimetusteks muutmiseks ning vastupidi. Alates 60st: C C# D Eb E F F# G G# A B H C Lisa  Kolmkõlale ka konstruktor, kus antakse ette akordi tähtnimetus ning selle järgi leitakse akordi põhitoon arvuna. Samuti on võimalik akordi noodid trükkida tähtnimedega. Koosta klass Lugu, kuhu iga takti jaoks saab lisada kolmkõla eksemplari. Klassist parameetrina antud kolmkõlatähtede põhjal väljastatakse Loo klassi eksemplari kaudu vastavalt kasutaja valikule kas mängitavad noodinumbrid või -nimed. Kontrolli automaattestidega.
 
 
 Joone võrrand
